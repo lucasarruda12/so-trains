@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>526</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="trem1">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>54</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: purple;
+	border: 4px solid darkpurple;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho1">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>54</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: transparent;
+	border: 4px solid dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trem2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>54</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: orange;
+	border: 4px solid darkorange;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho2">
+    <property name="geometry">
+     <rect>
+      <x>342</x>
+      <y>54</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: transparent;
+	border: 4px solid dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: transparent;
+	border: 4px solid dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho4">
+    <property name="geometry">
+     <rect>
+      <x>254</x>
+      <y>250</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: transparent;
+	border: 4px solid dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho3">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>250</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: transparent;
+	border: 4px solid dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trem3">
+    <property name="geometry">
+     <rect>
+      <x>58</x>
+      <y>250</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: blue;
+	border: 4px solid darkblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trem4">
+    <property name="geometry">
+     <rect>
+      <x>254</x>
+      <y>250</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: red;
+	border: 4px solid darkred;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trem5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	background: green;
+	border: 4px solid darkgreen;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="trem1_scroll">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>260</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollBar:horizontal {
+    background: transparent;
+    min-height: 20px;
+}
+QScrollBar::handle:horizontal {
+    background: purple;
+	border: 4px solid darkpurple;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="maximum">
+     <number>50</number>
+    </property>
+    <property name="pageStep">
+     <number>5</number>
+    </property>
+    <property name="value">
+     <number>25</number>
+    </property>
+    <property name="sliderPosition">
+     <number>25</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>34</x>
+      <y>20</y>
+      <width>641</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: white;
+	border: 4px solid grey;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="barbar1">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>268</y>
+      <width>160</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>230</y>
+      <width>191</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: white;
+	border: 4px solid darkgrey;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="trem2_scroll">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>300</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollBar:horizontal {
+    background: transparent;
+    min-height: 20px;
+}
+QScrollBar::handle:horizontal {
+    background: orange;
+	border: 4px solid darkorange;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="maximum">
+     <number>50</number>
+    </property>
+    <property name="pageStep">
+     <number>5</number>
+    </property>
+    <property name="sliderPosition">
+     <number>25</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="barbar1_2">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>308</y>
+      <width>160</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="trem3_scroll">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>340</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollBar:horizontal {
+    background: transparent;
+    min-height: 20px;
+}
+QScrollBar::handle:horizontal {
+    background: blue;
+	border: 4px solid darkblue;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="maximum">
+     <number>50</number>
+    </property>
+    <property name="pageStep">
+     <number>5</number>
+    </property>
+    <property name="sliderPosition">
+     <number>25</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="barbar1_3">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>348</y>
+      <width>160</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="trem4_scroll">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>382</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollBar:horizontal {
+    background: transparent;
+    min-height: 20px;
+}
+QScrollBar::handle:horizontal {
+    background: red;
+	border: 4px solid darkred;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="maximum">
+     <number>50</number>
+    </property>
+    <property name="pageStep">
+     <number>5</number>
+    </property>
+    <property name="sliderPosition">
+     <number>25</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="barbar1_4">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>390</y>
+      <width>160</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="barbar1_5">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>428</y>
+      <width>160</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { 
+	background: dodgerblue;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollBar" name="trem5_scroll">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>420</y>
+      <width>160</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QScrollBar:horizontal {
+    background: transparent;
+    min-height: 20px;
+}
+QScrollBar::handle:horizontal {
+    background: green;
+	border: 4px solid darkgreen;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    width: 0px;
+}
+
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+}</string>
+    </property>
+    <property name="maximum">
+     <number>50</number>
+    </property>
+    <property name="pageStep">
+     <number>5</number>
+    </property>
+    <property name="value">
+     <number>25</number>
+    </property>
+    <property name="sliderPosition">
+     <number>25</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <zorder>background_2</zorder>
+   <zorder>barbar1_3</zorder>
+   <zorder>barbar1_4</zorder>
+   <zorder>barbar1_2</zorder>
+   <zorder>barbar1</zorder>
+   <zorder>trem1_scroll</zorder>
+   <zorder>background</zorder>
+   <zorder>trilho5</zorder>
+   <zorder>trilho4</zorder>
+   <zorder>trilho3</zorder>
+   <zorder>trilho2</zorder>
+   <zorder>trilho1</zorder>
+   <zorder>trem1</zorder>
+   <zorder>trem2</zorder>
+   <zorder>trem3</zorder>
+   <zorder>trem4</zorder>
+   <zorder>trem5</zorder>
+   <zorder>trem2_scroll</zorder>
+   <zorder>trem3_scroll</zorder>
+   <zorder>trem4_scroll</zorder>
+   <zorder>barbar1_5</zorder>
+   <zorder>trem5_scroll</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>911</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
